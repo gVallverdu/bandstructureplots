@@ -1,6 +1,6 @@
 [![pymatgen 3.4.0](https://img.shields.io/badge/pymatgen-3.4.0-blue.svg)](http://pymatgen.org/)
 
-# bandstructureplots
+# Band Structure Plots
 
 Band structure plots from VASP calculations using pymatgen and a rgb scale to
 look at atomic or orbital contributions.
