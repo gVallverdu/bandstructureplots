@@ -1,0 +1,17 @@
+graphene
+  SYSTEM = "graphene"
+
+Electronic minimization
+  NELMIN = 4
+  ISMEAR = 0
+  SIGMA = 0.1
+  SYMPREC = 1.E-7
+  EDIFF = 1.E-6
+  PREC = Accurate
+
+Ionic minimization
+  NSW = 100
+  EDIFFG = -0.01
+  ISIF = 2
+  IBRION = 2
+

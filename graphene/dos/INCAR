@@ -1,0 +1,15 @@
+graphene
+  SYSTEM = "graphene"
+
+Electronic minimization
+  NELMIN = 4
+  ISMEAR = -5
+  SYMPREC = 1.E-7
+  EDIFF = 1.E-6
+  PREC = Accurate
+  NEDOS = 2000
+  LORBIT = 11
+
+Ionic minimization
+  NSW = 0
+
