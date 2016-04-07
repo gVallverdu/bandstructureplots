@@ -1,0 +1,18 @@
+Optimisation ENCUT
+  SYSTEM = "Cu metal"
+
+Electronic
+  PREC = Accurate
+  ISTART = 0
+  EDIFF = 1e-6
+  ENCUT = 450.0
+  GGA = PS
+  LORBIT = 11
+
+Ionic relaxation
+  NSW = 0
+
+smearing
+  ISMEAR = 1
+  SIGMA = 0.2
+
