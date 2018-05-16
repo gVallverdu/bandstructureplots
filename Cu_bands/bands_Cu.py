@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 from matplotlib.collections import LineCollection
 from matplotlib.gridspec import GridSpec
 
-from pymatgen.io.vaspio.vasp_output import Vasprun
+from pymatgen.io.vasp.outputs import Vasprun
 from pymatgen.electronic_structure.core import Spin, OrbitalType
 
 
@@ -69,7 +69,7 @@ if __name__ == "__main__":
     # Band Diagram
     # ------------
     name = "Cu"
-    pbands = bands.get_projections_on_elts_and_orbitals({name: ["s", "p", "d"]})
+    pbands = bands.get_projections_on_elements_and_orbitals({name: ["s", "p", "d"]})
 
     # compute s, p, d normalized contributions
     contrib = np.zeros((bands.nb_bands, len(bands.kpoints), 3))
